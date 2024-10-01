@@ -64,16 +64,16 @@ module.exports.run = async ({ event, args, message, threadsData }) => {
         }
 
         let commandInfo = `
-╭──✦ [ Command: ${command.name.toUpperCase()} ]
-├‣ 📜 Name: ${command.name}
-├‣ 👤 Credits: ${command?.credits || command?.author || 'Unknown'}
+LISA✦ [ Command: ${command.name.toUpperCase()} ]
+├💦 📜 Name: ${command.name}
+├🌼 👤 Credits: ${command?.credits || command?.author || 'Unknown'}
 ├‣ 🔑 Permission: ${command.role === 0 ? 'Everyone' : 'Admin'}
 ├‣ 🪶 Aliases: ${command.aliases ? command.aliases.join(', ') : 'None'}
 ├‣ 📜 Description: ${command.description || 'No description'}
 ├‣ 📚 Guide: ${guide}
 ├‣ 🚩 Prefix Required: ${command.prefix || command.usePrefix ? 'Yes' : 'No'}
 ├‣ ⚜️ Premium: ${command.premium ? 'Yes' : 'No'}
-╰───────────────◊`;
+MAHI BABY◊`;
 
         return message.reply(commandInfo);
     }
