@@ -13,14 +13,14 @@ module.exports = {
     },
   onStart: async ({ api, message ,event }) => {
         try {
-            const botName = "Your Baby";
+            const botName = "𝗟𝗜𝗦𝗔 𝗩2 🌼🌼";
             const botPrefix = "!";
-            const authorName = "亗ㅤƊᎥᎮㅤƬᴏㅤ亗";
-            const ownAge = "18";
-            const teamName = "Noobs team";
-      const authorFB = "https://m.me/dipto008";
-          const authorInsta = "@fariasdipto";
-  const link = "https://i.imgur.com/Faxo9ce.jpeg";
+            const authorName = "𝗠𝗔𝗛𝗜 𝗔𝗛𝗠𝗘𝗗 💦";
+            const ownAge = "20";
+            const teamName = "FUCKER";
+      const authorFB = "https://www.facebook.com/profile.php?id=100089286199594;
+          const authorInsta = "secret";
+  const link = "https://i.imgur.com/uSt7nCZ.jpeg";
         const now = moment().tz('Asia/Dhaka');
       const date = now.format('MMMM Do YYYY');
           const time = now.format('h:mm:ss A');
